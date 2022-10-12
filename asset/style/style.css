@@ -1,0 +1,71 @@
+/* ------------------------Fonts-------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+/* --------------------------VAR------------------------ */
+
+:root{
+    --poppins:'Poppins', sans-serif;
+    --blue__title:#0a2ff1;
+    --blue__p: #0a2ff1;
+    --blue__background:#eff2ff;
+    --blue__botton_background:#8a9af1;
+    }
+
+/* --------------------------ALL----------------------------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--poppins);
+}
+
+/* ---------------------------TITLE__MAIN-------------------*/
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    /* width: 830px;
+    height: 430px; */
+
+}
+
+.container__title{
+    color: var(--blue__title);
+    font-size: 50px;
+    font-weight: bold;
+}
+.container__description{
+    color: var(--blue__title);
+    font-size: 23px;
+    background-color: var(--blue__background);
+}
+
+.container__selection{
+    width: 350px;
+    height: 34px;
+    color: white;
+    background-color: var(--blue__botton_background);
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.container__picture{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container__picture--img{
+    width: 30%;
+}
+
+hr{
+    height: 10px;
+    color: var( #3ffff3);
+    background-color: #3ffff3;
+    border: none;
+}
